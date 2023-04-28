@@ -1,0 +1,8 @@
+exports.contact=function(app){
+    app.get("/contact", (req, res) => {
+
+        res.send("<h1>Contact Page</h1>");
+       
+    });
+};
+//กำหนดให้ แสดงข้อความ Contact Page  เมื่อเปิด browser ไปที่ http://localhost:3000/contact
